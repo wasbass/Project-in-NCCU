@@ -86,7 +86,6 @@ for n in range(0,len(List_url)):
         rent = soup.find("h2",class_ = "price-r").string
         L.append(rent)
         
-
         cutting = soup.find_all("ul",class_ = "cutting-inline detail-list")
         district = soup.find_all("ul" , class_ = "detail-list")[2]
         
