@@ -92,7 +92,6 @@ label_tg_weight.pack()
 en_tg_weight=tk.Entry()
 en_tg_weight.pack()
 
-
 label_check=tk.Label(text="")
 label_check.config(bg="skyblue",fg="red",font="微軟正黑體 15")
 label_check.pack()
